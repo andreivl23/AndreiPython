@@ -1,21 +1,27 @@
 import random
 
+satu_numero = ""
+kokonum = ""
+
+
 def randomi():
     return random.randint(0, 9)
+
 
 def randomi_1_6():
     return random.randint(1, 6)
 
 
-yksi = str(randomi())
-kaksi = str(randomi())
-kolme = str(randomi())
+for i in range(3):
+    satu_numero = randomi()
+    kokonum += str(satu_numero)
 
-print(yksi+kaksi+kolme)
 
-nelja = str(randomi_1_6())
-viisi = str(randomi_1_6())
-kuusi = str(randomi_1_6())
-seitseman = str(randomi_1_6())
+print(kokonum)
+kokonum = ""
 
-print(nelja+viisi+kuusi+seitseman)
+for i in range(4):
+    satu_numero = randomi_1_6()
+    kokonum += str(satu_numero)
+
+print(kokonum)
