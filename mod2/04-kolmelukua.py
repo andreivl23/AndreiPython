@@ -4,5 +4,5 @@ kolmas = int(input("Anna kolmas luku: "))
 print("Summa:", ens + toka + kolmas)
 print("Tulo:", ens * toka * kolmas)
 tulo = (ens + toka + kolmas) / 3
-pyor = round(tulo, 2)
-print("Keskiarvo:", pyor)
+#pyor = round(tulo, 2)
+print(f"Keskiarvo: {tulo:.2f}")
