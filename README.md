@@ -14,8 +14,9 @@ print(f"Massa on {grammat // 1000:1.0f} kilogrammaa ja {grammat % 1000:.0f} gram
 
 ### PYÖRISTYS
 
-pyor = round(tulo, 2)
+round(tulo, 2)
 print(f"Keskiarvo: {tulo:.2f}")
+math.ceil(arvo) OR math.floor(arvo)
 
 ### FOR 
 
