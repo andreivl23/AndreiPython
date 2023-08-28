@@ -9,5 +9,5 @@ grammat = luotit * 13.3
 #grammaa = grammat % 1000  # % gives remainder after division
 
 # print("Massa on", kilogrammat, "kilogrammaa ja", int(grammaa), "grammaa")
-print(f"Massa on {grammat // 1000} kilogrammaa ja {grammat % 1000:.0f} grammaa")
+print(f"Massa on {grammat // 1000:1.0f} kilogrammaa ja {grammat % 1000:.0f} grammaa")
 print("Oikea tulos grammoissa: ", grammat)
