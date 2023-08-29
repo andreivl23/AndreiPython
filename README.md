@@ -7,7 +7,10 @@ https://github.com/vesavvo/Python_Ohjelmistoteema
 
 ### Muistiot:
 
-
+#### Muuttujiat 
+```
+arvo = luku = kertoja = 0
+```
 #### PRINT
 ```
 print(f"Massa on {grammat // 1000:1.0f} kilogrammaa ja {grammat % 1000:.0f} grammaa")
