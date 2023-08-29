@@ -43,4 +43,7 @@ lista.sort(reverse = True)
 
 for luku in lista[0:5]:
     print(luku, end=" ")
+    
+for l in range(5):
+    print(lista[l])
 ```
