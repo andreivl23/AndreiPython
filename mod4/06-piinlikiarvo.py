@@ -11,4 +11,4 @@ while kierros != N:
     if x ** 2 + y ** 2 < 1 == True:
         n += 1
 
-print((4*n/N))
+print((4 * n / N))
