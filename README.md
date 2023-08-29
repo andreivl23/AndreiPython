@@ -30,4 +30,10 @@ while tuuma >= 0:
     senttit = tuuma * 2.54
     print(senttit)
     
+### RANDOM
+
+##liukuluvut:
+
+x = random.uniform(-1, 1)
+y = random.uniform(-1, 1)
 ```
