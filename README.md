@@ -36,4 +36,11 @@ while tuuma >= 0:
 
 x = random.uniform(-1, 1)
 y = random.uniform(-1, 1)
+
+### FOR + LISTS
+
+lista.sort(reverse = True)
+
+for luku in lista[0:5]:
+    print(luku, end=" ")
 ```
