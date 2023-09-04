@@ -3,12 +3,15 @@ def noppa():
     silmaluku = random.randint(1,6)
     return silmaluku
 
-silmaluku = noppa()
+def main():
 
-while silmaluku != 6:
+    silmaluku = noppa()
 
-        print(f"Heitetään... Silmäluku on {silmaluku}")
-        silmaluku = noppa()
+    while silmaluku != 6:
 
+            print(f"Heitetään... Silmäluku on {silmaluku}")
+            silmaluku = noppa()
 
-print(f"No niin saatiin silmaluvuksi {silmaluku}.")
+    print(f"No niin saatiin silmaluvuksi {silmaluku}.")
+
+main()

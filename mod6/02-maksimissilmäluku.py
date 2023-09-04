@@ -3,16 +3,20 @@ def noppa(tahkoja):
     silmaluku = random.randint(1,tahkoja)
     return silmaluku
 
-tahkoja = int(input("Tahkoja: "))
-maksimi = int(input("Maksimisilmäluku: "))
+def main():
+
+    tahkoja = int(input("Tahkoja: "))
+    maksimi = int(input("Maksimisilmäluku: "))
 
 
-silmaluku = noppa(tahkoja)
+    silmaluku = noppa(tahkoja)
 
-while silmaluku != maksimi:
+    while silmaluku != maksimi:
 
-        print(f"Heitetään... Silmäluku on {silmaluku}")
-        silmaluku = noppa(tahkoja)
+            print(f"Heitetään... Silmäluku on {silmaluku}")
+            silmaluku = noppa(tahkoja)
 
 
-print(f"No niin saatiin silmaluvuksi {silmaluku}.")
+    print(f"No niin saatiin silmaluvuksi {silmaluku}.")
+
+main()
