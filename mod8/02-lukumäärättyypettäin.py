@@ -1,11 +1,11 @@
 import mysql.connector
 
 yhteys = mysql.connector.connect(
-         host='127.0.0.1',
+         host='172.232.129.9',
          port= 3306,
          database='flight_game',
-         user='root',
-         password='123321',
+         user='guest',
+         password='Dmentors',
          autocommit=True
          )
 def haemaakoodi(maakoodi):
@@ -19,13 +19,13 @@ def haemaakoodi(maakoodi):
         for rivi in tulos:
             if rivi[0] == "small_airport":
                 smallfries += 1
-            if rivi[0] == "medium_airport":
+            elif rivi[0] == "medium_airport":
                 mediumfries += 1
-            if rivi[0] == "large_airport":
+            elif rivi[0] == "large_airport":
                 largefries += 1
-            if rivi[0] == "heliport":
+            elif rivi[0] == "heliport":
                 helifries += 1
-            if rivi[0] == "closed":
+            elif rivi[0] == "closed":
                 closedfries += 1
         print(f"Pienet lentokentät: {smallfries}")
         print(f"Keski lentokentät: {mediumfries}")

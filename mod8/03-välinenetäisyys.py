@@ -1,15 +1,12 @@
 import mysql.connector
 from geopy import distance
 
-
-
-
 yhteys = mysql.connector.connect(
-         host='127.0.0.1',
+         host='172.232.129.9',
          port= 3306,
          database='flight_game',
-         user='root',
-         password='123321',
+         user='guest',
+         password='Dmentors',
          autocommit=True
          )
 def haekoordinatit(icao):
@@ -28,6 +25,5 @@ def main():
     icao = input("Anna toinen ICAO: ") #EETN
     koordinatit2 = haekoordinatit(icao)
     print(f"Etäisyys näiden lentokentien välillä on {distance.distance(koordinatit1,koordinatit2).km:.0f} kilometria.")
-
 
 main()
