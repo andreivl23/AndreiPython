@@ -6,12 +6,9 @@ def noppa(tahkoja):
 def main():
 
     tahkoja = int(input("Tahkoja: "))
-    maksimi = int(input("Maksimisilmäluku: "))
-
-
     silmaluku = noppa(tahkoja)
 
-    while silmaluku != maksimi:
+    while silmaluku != tahkoja:
 
             print(f"Heitetään... Silmäluku on {silmaluku}")
             silmaluku = noppa(tahkoja)
