@@ -1,11 +1,11 @@
 import mysql.connector
 
 yhteys = mysql.connector.connect(
-         host='172.232.129.9',
+         host='127.0.0.1',
          port= 3306,
          database='flight_game',
-         user='guest',
-         password='Dmentors',
+         user='root',
+         password='123321',
          autocommit=True
          )
 def haemaakoodi(maakoodi):
