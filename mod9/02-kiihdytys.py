@@ -5,7 +5,7 @@ class Auto:
         self.nopeus = 0
         self.matka = 0
 
-    def kiihdytä(self, kiihdytys):
+    def kiihdyta(self, kiihdytys):
         self.nopeus += kiihdytys
         if self.nopeus > 142:
             self.nopeus = 142
@@ -16,11 +16,11 @@ class Auto:
 auto1 = Auto("ABC-123", "142 km/h")
 print(f"Auton rekkari on {auto1.rekkari} ja huippunopeus on {auto1.huippunopeus}")
 print("Kiihdytään...")
-auto1.kiihdytä(30)
-auto1.kiihdytä(70)
-auto1.kiihdytä(50)
+auto1.kiihdyta(30)
+auto1.kiihdyta(70)
+auto1.kiihdyta(50)
 print(f"Auton nopeus on {auto1.nopeus} km/h")
 print("Jarrutaan...")
-auto1.kiihdytys(-200)
+auto1.kiihdyta(-200)
 print(f"Auton nopeus on {auto1.nopeus} km/h")
 
