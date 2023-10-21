@@ -1,5 +1,5 @@
 # Andrei Python
-### Ohjelmisto 1 
+### Ohjelmisto 1 ja Ohjelmisto 2
 
 #### Hei! 
 Tämä on mun repo missä harjoitelen pythonin tehtävät tästä reposta: \
