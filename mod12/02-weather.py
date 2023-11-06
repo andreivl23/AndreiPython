@@ -22,6 +22,7 @@ try:
 
         weather = json_vastaus["weather"][0]["description"]
         temp_kelvin = int(json_vastaus["main"]["temp"])
+        # 0K − 273.15 = -273,1°C
         temp_cels = temp_kelvin - 273.15
         print(f"Lämpötila on {temp_cels:.1f}C ja sää on {weather}")
 
